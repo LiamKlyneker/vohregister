@@ -14,7 +14,7 @@ vohRegister.Routers.Base = Backbone.Router.extend({
 	index : function(){ 
 		var data_courses = [{
 								'id'             : 1,
-								'name'           : 'Nombre Sepsi',
+								'name'           : 'Astronomia',
 								'teacher'        : 'Ing. Mateo Aldebaran, Rodrigo',
 								'credits'        : 4,
 								'turn'           : 'Mañana',
@@ -22,7 +22,7 @@ vohRegister.Routers.Base = Backbone.Router.extend({
 								'semester_roman' : 'I'},
 							{
 								'id'             : 2,
-								'name'           : 'Otro Curso',
+								'name'           : 'Historia y Geografía',
 								'teacher'        : 'Ing. Rivera Torres, Baldeon',
 								'credits'        : 4,
 								'turn'           : 'Tarde',
@@ -30,8 +30,8 @@ vohRegister.Routers.Base = Backbone.Router.extend({
 								'semester_roman' : 'I'},
 							{
 								'id'             : 3,
-								'name'           : 'Otro Curso',
-								'teacher'        : 'Ing. Rivera Torres, Baldeon',
+								'name'           : 'Ingles I',
+								'teacher'        : 'Ing. Marcela Rodriguez, Ana',
 								'credits'        : 4,
 								'turn'           : 'Tarde',
 								'semester'       : 1,
@@ -39,25 +39,25 @@ vohRegister.Routers.Base = Backbone.Router.extend({
 
 							{
 								'id'             : 4,
-								'name'           : 'Otro Curso',
-								'teacher'        : 'Ing. Rivera Torres, Baldeon',
+								'name'           : 'Ciencias Sociales',
+								'teacher'        : 'Lic. Salcedo Soto, Paola',
 								'credits'        : 4,
-								'turn'           : 'Tarde',
+								'turn'           : 'Mañana',
 								'semester'       : 1,
 								'semester_roman' : 'I'},
 
 							{
 								'id'             : 5,
-								'name'           : 'Otro Curso',
-								'teacher'        : 'Ing. Rivera Torres, Baldeon',
+								'name'           : 'Frances II',
+								'teacher'        : 'Lic. Toulalan Teyllaran, Marco',
 								'credits'        : 4,
-								'turn'           : 'Tarde',
+								'turn'           : 'Noche',
 								'semester'       : 2,
 								'semester_roman' : 'II'},
 							{
 								'id'             : 6,
-								'name'           : 'Otro Curso',
-								'teacher'        : 'Ing. Rivera Torres, Baldeon',
+								'name'           : 'Italiano III',
+								'teacher'        : 'Ing. Rigazzi Tune, Fabriccio',
 								'credits'        : 4,
 								'turn'           : 'Tarde',
 								'semester'       : 2,
