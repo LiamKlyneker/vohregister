@@ -5,7 +5,7 @@ vohRegister.Routers.Base = Backbone.Router.extend({
 	
 	initialize : function(){
 		Backbone.history.start({
-			root      : '/',
+			root      : '/vohregister',
 			pushState : true
 		});
 	},
